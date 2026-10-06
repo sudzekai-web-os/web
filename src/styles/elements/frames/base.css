@@ -1,0 +1,7 @@
+.frame {
+    @apply bg-(--class-frame-bg)
+           text-(--class-frame-text)
+           ring-inset ring-(length:--frame-border-size) ring-(--class-frame-border)
+           rounded-(--frame-radius)
+           shadow-sm;
+}

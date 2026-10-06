@@ -1,0 +1,103 @@
+textarea.input {
+    @apply resize-y min-h-24
+           bg-(--input-textarea-bg)
+           text-(--input-textarea-text);
+}
+
+select.input {
+    @apply w-full
+           bg-(--input-select-bg)
+           text-(--input-select-text);
+}
+
+input.input[type="checkbox"] {
+    @apply relative shrink-0 cursor-pointer appearance-none;
+    width: var(--input-check-width);
+    height: var(--input-check-height);
+    padding: 0;
+    background-color: var(--input-check-bg);
+    border-radius: var(--input-check-radius);
+    transition: background-color 0.15s;
+}
+
+input.input[type="checkbox"]::before {
+    content: "";
+    @apply absolute block;
+    top: var(--input-check-cloud-offset);
+    left: var(--input-check-cloud-offset);
+    width: var(--input-check-cloud-size);
+    height: var(--input-check-cloud-size);
+    background-color: var(--input-check-cloud-bg);
+    border-radius: var(--input-check-radius);
+    transition: transform 0.15s;
+}
+
+input.input[type="checkbox"]:checked {
+    background-color: var(--input-check-checked-bg);
+}
+
+input.input[type="checkbox"]:checked::before {
+    transform: translateX(var(--input-check-cloud-travel));
+}
+
+input.input[type="radio"] {
+    @apply relative shrink-0 cursor-pointer appearance-none;
+    width: var(--input-radio-size);
+    height: var(--input-radio-size);
+    padding: 0;
+    background-color: var(--input-radio-bg);
+    border-radius: var(--input-radio-radius);
+    box-shadow: inset 0 0 0 var(--input-border-size) var(--input-radio-border);
+}
+
+input.input[type="radio"]:checked {
+    background-color: var(--input-radio-checked-bg);
+    box-shadow: inset 0 0 0 var(--input-border-size) var(--input-radio-checked-border);
+}
+
+input.input[type="radio"]:checked::after {
+    content: "";
+    @apply block;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    background-color: var(--input-radio-checked-dot);
+    border-radius: var(--input-radio-radius);
+}
+
+input.input[type="range"] {
+    @apply w-full appearance-none;
+    height: var(--input-range-height);
+    padding: 0;
+    background-color: transparent;
+}
+
+input.input[type="range"]::-webkit-slider-runnable-track {
+    height: var(--input-range-height);
+    background-color: var(--input-range-track-bg);
+    border-radius: var(--input-range-radius);
+}
+
+input.input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: var(--input-range-thumb-size);
+    height: var(--input-range-thumb-size);
+    margin-top: calc((var(--input-range-height) - var(--input-range-thumb-size)) / 2);
+    background-color: var(--input-range-thumb-bg);
+    box-shadow: inset 0 0 0 var(--input-border-size) var(--input-range-thumb-border);
+    border-radius: var(--input-range-thumb-radius);
+}
+
+input.input[type="file"] {
+    @apply bg-(--input-file-bg)
+           text-(--input-file-text);
+}
+
+input.input[type="file"]::file-selector-button {
+    @apply cursor-pointer border-0;
+    background-color: var(--input-file-button-bg);
+    color: var(--input-file-button-text);
+    padding: 0.5rem 0.75rem;
+    margin-right: 0.75rem;
+}

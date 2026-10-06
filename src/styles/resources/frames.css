@@ -1,0 +1,61 @@
+:root {
+    --frame-radius: 0.25rem;
+    --frame-border-size: 0;
+
+    /* frame — базовый нейтральный */
+    --frame-bg: #1f2937;
+    --frame-border: #374151;
+    --frame-text: #f9fafb;
+    --frame-hover-overlay-alpha: 0.08;
+    --frame-hover-color: #2b3444;
+
+    /* frame-secondary */
+    --frame-secondary-bg: #374151;
+    --frame-secondary-border: #4b5563;
+    --frame-secondary-text: #f3f4f6;
+    --frame-secondary-hover-overlay-alpha: 0.12;
+    --frame-secondary-hover-color: #465161;
+
+    /* frame-tertiary */
+    --frame-tertiary-bg: #4b5563;
+    --frame-tertiary-border: #6b7280;
+    --frame-tertiary-text: #f9fafb;
+    --frame-tertiary-hover-overlay-alpha: 0.16;
+    --frame-tertiary-hover-color: #5b6675;
+
+    /* frame-quaternary */
+    --frame-quaternary-bg: #111827;
+    --frame-quaternary-border: #1f2937;
+    --frame-quaternary-text: #e5e7eb;
+    --frame-quaternary-hover-overlay-alpha: 0.2;
+    --frame-quaternary-hover-color: #1f2937;
+
+
+    /* frame-info */
+    --frame-info-bg: #0e7490;
+    --frame-info-border: #22d3ee;
+    --frame-info-text: #ecfeff;
+    --frame-info-hover-overlay-alpha: 0.15;
+    --frame-info-hover-color: #155e75;
+
+    /* frame-danger */
+    --frame-danger-bg: #991b1b;
+    --frame-danger-border: #f87171;
+    --frame-danger-text: #fef2f2;
+    --frame-danger-hover-overlay-alpha: 0.15;
+    --frame-danger-hover-color: #7f1d1d;
+
+    /* frame-success */
+    --frame-success-bg: #166534;
+    --frame-success-border: #4ade80;
+    --frame-success-text: #f0fdf4;
+    --frame-success-hover-overlay-alpha: 0.15;
+    --frame-success-hover-color: #14532d;
+
+    /* frame-muted */
+    --frame-muted-bg: #0b0f19;
+    --frame-muted-border: #1f2937;
+    --frame-muted-text: #9ca3af;
+    --frame-muted-hover-overlay-alpha: 0.15;
+    --frame-muted-hover-color: #111827;
+}

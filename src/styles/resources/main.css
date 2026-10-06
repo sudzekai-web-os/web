@@ -1,0 +1,15 @@
+@import "./buttons.css";
+@import "./inputs.css";
+@import "./frames.css";
+@import "./text.css";
+
+:root {
+    --primary-color: lightblue;
+    --danger-color: red;
+    --success-color: green;
+    --info-color: blue;
+    --muted-color: gray;
+
+    --background-color: #111827;
+    --border-color: #4b5563;
+}

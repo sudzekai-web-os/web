@@ -1,0 +1,31 @@
+.text.text-semibold {
+    @apply font-semibold;
+}
+
+.text.text-bold {
+    @apply font-bold;
+}
+
+.text.text-mono {
+    font-family: var(--font-family-tertiary);
+}
+
+.text.text-nowrap {
+    @apply whitespace-nowrap;
+}
+
+.text.text-truncate {
+    @apply truncate;
+}
+
+.text.text-center {
+    @apply text-center;
+}
+
+.text.text-start {
+    @apply text-start;
+}
+
+.text.text-end {
+    @apply text-end;
+}

@@ -1,0 +1,81 @@
+:root {
+    --input-radius: 0.25rem;
+    --input-border-size: 1px;
+
+    /* input */
+    --input-text: #e5e7eb;
+    --input-bg: #1f2937;
+    --input-border: #4b5563;
+    --input-placeholder: #6b7280;
+
+    --input-text-disabled: #6b7280;
+    --input-bg-disabled: #111827;
+    --input-border-disabled: #374151;
+    --input-placeholder-disabled: #4b5563;
+
+    --input-text-hover: #ffffff;
+    --input-bg-hover: #374151;
+    --input-border-hover: #6b7280;
+    --input-placeholder-hover: #9ca3af;
+
+    --input-text-focus: #ffffff;
+    --input-bg-focus: #1f2937;
+    --input-border-focus: #9ca3af;
+    --input-placeholder-focus: #6b7280;
+
+    --input-invalid-border: #dc2626;
+    --input-invalid-text: #ffffff;
+    --input-invalid-bg: #1f2937;
+
+
+    /* textarea */
+    --input-textarea-bg: #1f2937;
+    --input-textarea-border: #4b5563;
+    --input-textarea-text: #e5e7eb;
+
+
+    /* select */
+    --input-select-bg: #1f2937;
+    --input-select-border: #4b5563;
+    --input-select-text: #e5e7eb;
+
+
+/* checkbox */
+    --input-check-width: 2rem;
+    --input-check-height: 1.2rem;
+    --input-check-radius: 9999px;
+    --input-check-cloud-offset: 0.125rem;
+    --input-check-cloud-size: calc(var(--input-check-height) - (var(--input-check-cloud-offset) * 2));
+    --input-check-cloud-travel: calc(var(--input-check-width) - var(--input-check-cloud-size) - (var(--input-check-cloud-offset) * 2));
+    --input-check-bg: #374151;
+    --input-check-border: #6b7280;
+    --input-check-checked-bg: #2563eb;
+    --input-check-checked-border: #2563eb;
+    --input-check-cloud-bg: #ffffff;
+
+    /* radio */
+    --input-radio-size: 1rem;
+    --input-radio-radius: 9999px;
+    --input-radio-bg: #374151;
+    --input-radio-border: #6b7280;
+    --input-radio-checked-bg: #2563eb;
+    --input-radio-checked-border: #2563eb;
+    --input-radio-checked-dot: #ffffff;
+
+    /* range */
+    --input-range-height: 0.25rem;
+    --input-range-radius: 9999px;
+    --input-range-thumb-radius: 9999px;
+    --input-range-track-bg: #374151;
+    --input-range-thumb-bg: #ffffff;
+    --input-range-thumb-border: #2563eb;
+    --input-range-thumb-size: 1rem;
+
+
+    /* file */
+    --input-file-bg: #1f2937;
+    --input-file-border: #4b5563;
+    --input-file-text: #e5e7eb;
+    --input-file-button-bg: #374151;
+    --input-file-button-text: #ffffff;
+}

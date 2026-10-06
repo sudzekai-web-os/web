@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@import "./resources/main.css";
+@import "./utilities.css";
+
+@import "./elements/buttons/main.css";
+@import "./elements/inputs/main.css";
+@import "./elements/frames/main.css";
+@import "./elements/text/main.css";
+
+@layer base {
+    *, ::before, ::after {
+        border-color: var(--border-color);
+    }
+}
+
+body {
+    @apply bg-(--background-color) text-(--text);
+    font-family: var(--font-family);
+    font-size: calc(1rem * var(--text-scale));
+}
+
+body::selection {
+    @apply bg-(--text-selection-bg);
+}
+
+/* Скроллбары в стиле тёмной темы */
+:root {
+    scrollbar-color: var(--frame-secondary-bg) var(--background-color);
+    scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--background-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--frame-secondary-bg);
+    border-radius: 9999px;
+    border: 2px solid var(--background-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--frame-tertiary-bg);
+}
+
+::-webkit-scrollbar-corner {
+    background: var(--background-color);
+}

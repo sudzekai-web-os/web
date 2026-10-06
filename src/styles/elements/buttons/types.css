@@ -1,0 +1,131 @@
+.btn {
+    --class-btn-text: var(--btn-text);
+    --class-btn-bg: var(--btn-bg);
+    --class-btn-border: var(--btn-border);
+
+    --class-btn-text-disabled: var(--btn-text-disabled);
+    --class-btn-bg-disabled: var(--btn-bg-disabled);
+    --class-btn-border-disabled: var(--btn-border-disabled);
+
+    --class-btn-text-hover: var(--btn-text-hover);
+    --class-btn-bg-hover: var(--btn-bg-hover);
+    --class-btn-border-hover: var(--btn-border-hover);
+
+    --class-btn-text-active: var(--btn-text-active);
+    --class-btn-bg-active: var(--btn-bg-active);
+    --class-btn-border-active: var(--btn-border-active);
+
+    --class-btn-text-focus: var(--btn-text-focus);
+    --class-btn-bg-focus: var(--btn-bg-focus);
+    --class-btn-border-focus: var(--btn-border-focus);
+}
+
+.btn-primary {
+    --class-btn-text: var(--btn-primary-text);
+    --class-btn-bg: var(--btn-primary-bg);
+    --class-btn-border: var(--btn-primary-border);
+
+    --class-btn-text-disabled: var(--btn-primary-text-disabled);
+    --class-btn-bg-disabled: var(--btn-primary-bg-disabled);
+    --class-btn-border-disabled: var(--btn-primary-border-disabled);
+
+    --class-btn-text-hover: var(--btn-primary-text-hover);
+    --class-btn-bg-hover: var(--btn-primary-bg-hover);
+    --class-btn-border-hover: var(--btn-primary-border-hover);
+
+    --class-btn-text-active: var(--btn-primary-text-active);
+    --class-btn-bg-active: var(--btn-primary-bg-active);
+    --class-btn-border-active: var(--btn-primary-border-active);
+
+    --class-btn-text-focus: var(--btn-primary-text-focus);
+    --class-btn-bg-focus: var(--btn-primary-bg-focus);
+    --class-btn-border-focus: var(--btn-primary-border-focus);
+}
+
+.btn-secondary {
+    --class-btn-text: var(--btn-secondary-text);
+    --class-btn-bg: var(--btn-secondary-bg);
+    --class-btn-border: var(--btn-secondary-border);
+
+    --class-btn-text-disabled: var(--btn-secondary-text-disabled);
+    --class-btn-bg-disabled: var(--btn-secondary-bg-disabled);
+    --class-btn-border-disabled: var(--btn-secondary-border-disabled);
+
+    --class-btn-text-hover: var(--btn-secondary-text-hover);
+    --class-btn-bg-hover: var(--btn-secondary-bg-hover);
+    --class-btn-border-hover: var(--btn-secondary-border-hover);
+
+    --class-btn-text-active: var(--btn-secondary-text-active);
+    --class-btn-bg-active: var(--btn-secondary-bg-active);
+    --class-btn-border-active: var(--btn-secondary-border-active);
+
+    --class-btn-text-focus: var(--btn-secondary-text-focus);
+    --class-btn-bg-focus: var(--btn-secondary-bg-focus);
+    --class-btn-border-focus: var(--btn-secondary-border-focus);
+}
+
+.btn-danger {
+    --class-btn-text: var(--btn-danger-text);
+    --class-btn-bg: var(--btn-danger-bg);
+    --class-btn-border: var(--btn-danger-border);
+
+    --class-btn-text-disabled: var(--btn-danger-text-disabled);
+    --class-btn-bg-disabled: var(--btn-danger-bg-disabled);
+    --class-btn-border-disabled: var(--btn-danger-border-disabled);
+
+    --class-btn-text-hover: var(--btn-danger-text-hover);
+    --class-btn-bg-hover: var(--btn-danger-bg-hover);
+    --class-btn-border-hover: var(--btn-danger-border-hover);
+
+    --class-btn-text-active: var(--btn-danger-text-active);
+    --class-btn-bg-active: var(--btn-danger-bg-active);
+    --class-btn-border-active: var(--btn-danger-border-active);
+
+    --class-btn-text-focus: var(--btn-danger-text-focus);
+    --class-btn-bg-focus: var(--btn-danger-bg-focus);
+    --class-btn-border-focus: var(--btn-danger-border-focus);
+}
+
+.btn-success {
+    --class-btn-text: var(--btn-success-text);
+    --class-btn-bg: var(--btn-success-bg);
+    --class-btn-border: var(--btn-success-border);
+
+    --class-btn-text-disabled: var(--btn-success-text-disabled);
+    --class-btn-bg-disabled: var(--btn-success-bg-disabled);
+    --class-btn-border-disabled: var(--btn-success-border-disabled);
+
+    --class-btn-text-hover: var(--btn-success-text-hover);
+    --class-btn-bg-hover: var(--btn-success-bg-hover);
+    --class-btn-border-hover: var(--btn-success-border-hover);
+
+    --class-btn-text-active: var(--btn-success-text-active);
+    --class-btn-bg-active: var(--btn-success-bg-active);
+    --class-btn-border-active: var(--btn-success-border-active);
+
+    --class-btn-text-focus: var(--btn-success-text-focus);
+    --class-btn-bg-focus: var(--btn-success-bg-focus);
+    --class-btn-border-focus: var(--btn-success-border-focus);
+}
+
+.btn-info {
+    --class-btn-text: var(--btn-info-text);
+    --class-btn-bg: var(--btn-info-bg);
+    --class-btn-border: var(--btn-info-border);
+
+    --class-btn-text-disabled: var(--btn-info-text-disabled);
+    --class-btn-bg-disabled: var(--btn-info-bg-disabled);
+    --class-btn-border-disabled: var(--btn-info-border-disabled);
+
+    --class-btn-text-hover: var(--btn-info-text-hover);
+    --class-btn-bg-hover: var(--btn-info-bg-hover);
+    --class-btn-border-hover: var(--btn-info-border-hover);
+
+    --class-btn-text-active: var(--btn-info-text-active);
+    --class-btn-bg-active: var(--btn-info-bg-active);
+    --class-btn-border-active: var(--btn-info-border-active);
+
+    --class-btn-text-focus: var(--btn-info-text-focus);
+    --class-btn-bg-focus: var(--btn-info-bg-focus);
+    --class-btn-border-focus: var(--btn-info-border-focus);
+}

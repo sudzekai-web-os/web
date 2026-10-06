@@ -1,0 +1,37 @@
+.btn {  
+    @apply flex 
+           justify-center items-center
+           ring-inset ring-(length:--btn-border-size)
+           rounded-(--btn-radius)
+           transition-all duration-150
+
+           bg-(--class-btn-bg)
+           text-(--class-btn-text)
+           ring-(--class-btn-border)
+
+           disabled:bg-(--class-btn-bg-disabled)
+           disabled:text-(--class-btn-text-disabled)
+           disabled:ring-(--class-btn-border-disabled)
+       
+           hover:bg-(--class-btn-bg-hover)
+           hover:text-(--class-btn-text-hover)
+           hover:ring-(--class-btn-border-hover)
+
+           active:bg-(--class-btn-bg-active)
+           active:text-(--class-btn-text-active)
+           active:ring-(--class-btn-border-active)
+
+           focus:bg-(--class-btn-bg-focus)
+           focus:text-(--class-btn-text-focus)
+           focus:ring-(--class-btn-border-focus)
+
+           focus:outline-(--class-btn-border-focus)
+           focus:outline-1;
+}
+
+.btn:not(:hover,:active,:focus,:disabled).btn-outline {  
+    @apply ring-inset ring-(length:--btn-outline-border-size)
+           bg-transparent
+           text-(--class-btn-bg)
+           ring-(--class-btn-bg);
+}

@@ -1,0 +1,26 @@
+.input {
+    @apply w-full px-3 py-2
+           rounded-(--input-radius)
+           transition-all duration-150
+
+           bg-(--input-bg)
+           text-(--input-text)
+           ring-inset ring-(length:--input-border-size) ring-(--input-border)
+           placeholder:text-(--input-placeholder)
+
+           disabled:bg-(--input-bg-disabled)
+           disabled:text-(--input-text-disabled)
+           disabled:ring-(--input-border-disabled)
+           disabled:placeholder:text-(--input-placeholder-disabled)
+
+           hover:bg-(--input-bg-hover)
+           hover:text-(--input-text-hover)
+           hover:ring-(--input-border-hover)
+           hover:placeholder:text-(--input-placeholder-hover)
+
+           focus:bg-(--input-bg-focus)
+           focus:text-(--input-text-focus)
+           focus:ring-(--input-border-focus)
+           focus:placeholder:text-(--input-placeholder-focus)
+           focus:outline-none;
+}

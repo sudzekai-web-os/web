@@ -1,0 +1,7 @@
+{
+  "plugins": [
+    "files.js",
+    "hello.js",
+    "todo.js"
+  ]
+}

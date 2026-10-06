@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+
+    <!-- Верхняя панель -->
+    <path
+        fill-rule="evenodd"
+        d=" M 7 2
+            h 18
+            a 4 4 0 0 1 4 4
+            v 8
+            h -26
+            v -8
+            a 4 4 0 0 1 4 -4
+            Z
+
+            M 16 6
+            h 7
+            a 2 2 0 1 0 2 2
+            a 2 2 0 1 0 -2 2
+            h -7 
+            a 2 2 0 1 0 -2 -2
+            a 2 2 0 1 0 2 -2
+            Z
+            "
+        stroke="#fcfcfc" stroke-width="0.5" fill="#fcfcfc" />
+
+    <!-- Синий акцент -->
+    <path
+        filter="url(#shadow)"
+        d=" M 7 8
+            a 2 2 0 1 0 4 0 
+            a 2 2 0 1 0 -4 0 
+            Z
+        "
+        fill="#5686fe"
+    />
+
+    <!-- Нижняя панель с вырезом -->
+    <path
+        fill-rule="evenodd"
+        mask="url(#cut)"
+        d=" M 3 16
+            h 26
+            v 8
+            a 4 4 0 0 1 -4 4
+            h -18
+            a 4 4 0 0 1 -4 -4
+            Z
+            "
+        stroke="#fcfcfc" stroke-width="0.5" fill="#fcfcfc" />
+
+    <!-- Зелёный акцент -->
+    <path
+        filter="url(#shadow-second)"
+        d=" M 20 20
+            h 2.5
+            a 2 2 0 0 1 2 2
+            a 2 2 0 0 1 -2 2
+            h -2.5
+            a 2 2 0 0 1 -2 -2
+            a 2 2 0 0 1 2 -2
+            Z
+        "
+        fill="#4dea7a"
+    />
+
+    <defs>
+        <filter id="shadow" filterUnits="userSpaceOnUse" x="-4" y="-4" width="40" height="40">
+            <feDropShadow dx="0" dy="0" stdDeviation="1" flood-color="#5686fe" flood-opacity="1" />
+        </filter>
+
+        <filter id="shadow-second" filterUnits="userSpaceOnUse" x="-4" y="-4" width="40" height="40">
+            <feDropShadow dx="0" dy="0" stdDeviation="1" flood-color="#4dea7a" flood-opacity="1" />
+        </filter>
+
+        <mask id="cut">
+            <rect x="0" y="0" width="32" height="32" fill="white" />
+            <path stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+                d=" M 8 20.5
+                    h 7
+                    Z
+                    M 8 23.5
+                    h 7
+                    Z
+                " />
+        </mask>
+    </defs>
+</svg>

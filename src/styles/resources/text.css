@@ -1,0 +1,31 @@
+:root {
+    --text-scale: 1; /* font-size: n.rem * text-scale */
+
+    --text: white;
+    --text-alternative: white;
+
+    --text-muted: #9ca3af;
+    --text-primary: var(--primary-color);
+    --text-danger: var(--danger-color);
+    --text-success: var(--success-color);
+    --text-info: var(--info-color);
+    --text-link: var(--primary-color);
+
+    --text-selection-bg: gray;
+
+    --font-family: 'Inter', sans-serif;
+    --font-family-secondary: 'Verdana', sans-serif;
+    --font-family-tertiary: 'Monsterrat', sans-serif;
+}
+
+@theme {
+    --text-xs: calc(0.75rem * var(--text-scale));
+    --text-sm: calc(0.875rem * var(--text-scale));
+    --text-base: calc(1rem * var(--text-scale));
+    --text-lg: calc(1.125rem * var(--text-scale));
+    --text-xl: calc(1.25rem * var(--text-scale));
+    --text-2xl: calc(1.5rem * var(--text-scale));
+    --text-3xl: calc(1.875rem * var(--text-scale));
+    --text-4xl: calc(2.25rem * var(--text-scale));
+    --default-text-color: var(--text);
+}

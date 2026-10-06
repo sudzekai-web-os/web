@@ -1,0 +1,68 @@
+.btn.btn-start {
+    @apply justify-start;
+}
+
+.btn.btn-end {
+    @apply justify-end;
+}
+
+.btn.btn-sm {
+    @apply px-2 py-1;
+}
+
+.btn.btn-md {
+    @apply px-4 py-2;
+}
+
+.btn.btn-lg {
+    @apply px-6 py-3;
+}
+
+.btn.btn-p-0 {
+    @apply px-0 py-0;
+}
+
+.btn.btn-border {
+    @apply ring-inset ring-(length:--btn-outline-border-size)
+           ring-(--class-btn-border);
+}
+
+.btn.btn-active {
+    @apply bg-(--class-btn-bg-active) 
+           text-(--class-btn-text-active) 
+           ring-(--class-btn-border-active);
+}
+
+.btn:not(:hover, :active, :focus, :disabled).bg-transparent {
+    @apply bg-transparent;
+}
+
+.btn.border-0 {
+    @apply focus:outline-none;
+    box-shadow: none;
+}
+
+.btn.btn-state-hover {
+    @apply bg-(--class-btn-bg-hover) 
+           text-(--class-btn-text-hover) 
+           ring-(--class-btn-border-hover);
+}
+
+.btn.btn-state-active {
+    @apply bg-(--class-btn-bg-active) 
+           text-(--class-btn-text-active) 
+           ring-(--class-btn-border-active);
+}
+
+.btn.btn-state-focus {
+    @apply bg-(--class-btn-bg-focus) 
+           text-(--class-btn-text-focus) 
+           ring-(--class-btn-border-focus)
+           focus:outline-(--class-btn-border-focus) focus:outline-1;
+}
+
+.btn.btn-state-disabled {
+    @apply bg-(--class-btn-bg-disabled) 
+           text-(--class-btn-text-disabled) 
+           ring-(--class-btn-border-disabled);
+}

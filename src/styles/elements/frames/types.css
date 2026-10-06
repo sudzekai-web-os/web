@@ -1,0 +1,63 @@
+.frame {
+    --class-frame-bg: var(--frame-bg);
+    --class-frame-border: var(--frame-border);
+    --class-frame-text: var(--frame-text);
+    --class-frame-hover-overlay-alpha: var(--frame-hover-overlay-alpha);
+    --class-frame-hover-color: var(--frame-hover-color);
+}
+
+.frame-secondary {
+    --class-frame-bg: var(--frame-secondary-bg);
+    --class-frame-border: var(--frame-secondary-border);
+    --class-frame-text: var(--frame-secondary-text);
+    --class-frame-hover-overlay-alpha: var(--frame-secondary-hover-overlay-alpha);
+    --class-frame-hover-color: var(--frame-secondary-hover-color);
+}
+
+.frame-tertiary {
+    --class-frame-bg: var(--frame-tertiary-bg);
+    --class-frame-border: var(--frame-tertiary-border);
+    --class-frame-text: var(--frame-tertiary-text);
+    --class-frame-hover-overlay-alpha: var(--frame-tertiary-hover-overlay-alpha);
+    --class-frame-hover-color: var(--frame-tertiary-hover-color);
+}
+
+.frame-quaternary {
+    --class-frame-bg: var(--frame-quaternary-bg);
+    --class-frame-border: var(--frame-quaternary-border);
+    --class-frame-text: var(--frame-quaternary-text);
+    --class-frame-hover-overlay-alpha: var(--frame-quaternary-hover-overlay-alpha);
+    --class-frame-hover-color: var(--frame-quaternary-hover-color);
+}
+
+.frame-info {
+    --class-frame-bg: var(--frame-info-bg);
+    --class-frame-border: var(--frame-info-border);
+    --class-frame-text: var(--frame-info-text);
+    --class-frame-hover-overlay-alpha: var(--frame-info-hover-overlay-alpha);
+    --class-frame-hover-color: var(--frame-info-hover-color);
+}
+
+.frame-danger {
+    --class-frame-bg: var(--frame-danger-bg);
+    --class-frame-border: var(--frame-danger-border);
+    --class-frame-text: var(--frame-danger-text);
+    --class-frame-hover-overlay-alpha: var(--frame-danger-hover-overlay-alpha);
+    --class-frame-hover-color: var(--frame-danger-hover-color);
+}
+
+.frame-success {
+    --class-frame-bg: var(--frame-success-bg);
+    --class-frame-border: var(--frame-success-border);
+    --class-frame-text: var(--frame-success-text);
+    --class-frame-hover-overlay-alpha: var(--frame-success-hover-overlay-alpha);
+    --class-frame-hover-color: var(--frame-success-hover-color);
+}
+
+.frame-muted {
+    --class-frame-bg: var(--frame-muted-bg);
+    --class-frame-border: var(--frame-muted-border);
+    --class-frame-text: var(--frame-muted-text);
+    --class-frame-hover-overlay-alpha: var(--frame-muted-hover-overlay-alpha);
+    --class-frame-hover-color: var(--frame-muted-hover-color);
+}

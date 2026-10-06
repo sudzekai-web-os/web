@@ -1,0 +1,31 @@
+.frame.frame-hover {
+    @apply transition-colors duration-150;
+}
+
+.frame.frame-hover.frame-hover-opacity:hover {
+    background-color: color-mix(in srgb, black var(--class-frame-hover-overlay-alpha), var(--class-frame-bg));
+}
+
+.frame.frame-hover.frame-hover-color:hover {
+    background-color: var(--class-frame-hover-color);
+}
+
+.frame.frame-p-0 {
+    @apply p-0;
+}
+
+.frame.frame-p-2 {
+    @apply p-2;
+}
+
+.frame.frame-p-4 {
+    @apply p-4;
+}
+
+.frame.frame-p-6 {
+    @apply p-6;
+}
+
+.frame.frame-elevated {
+    @apply shadow-lg;
+}

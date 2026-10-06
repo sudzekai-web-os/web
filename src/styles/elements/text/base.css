@@ -1,0 +1,4 @@
+.text {
+    font-family: var(--font-family);
+    color: var(--text);
+}

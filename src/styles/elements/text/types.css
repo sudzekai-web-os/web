@@ -1,0 +1,27 @@
+.text-primary {
+    @apply text-(--text-primary);
+}
+
+.text-muted {
+    @apply text-(--text-muted);
+}
+
+.text-danger {
+    @apply text-(--text-danger);
+}
+
+.text-success {
+    @apply text-(--text-success);
+}
+
+.text-info {
+    @apply text-(--text-info);
+}
+
+.text-link {
+    @apply text-(--text-link);
+}
+
+.text-alternative {
+    @apply text-(--text-alternative);
+}
